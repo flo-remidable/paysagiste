@@ -1,0 +1,156 @@
+body{
+    width: 100%;
+    margin-left: 0;
+    background-image: url(../../image/maison.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 0; 
+    margin-bottom: 0;
+    font-size: 40px;
+    position: relative; top: -10px;
+    height: 50px;
+}
+
+#banniere{
+    position: relative;
+    top: -10px;
+    width: 100%;
+}
+
+nav{
+    position: sticky;
+    background-color: black;
+    margin-top: -20px;
+   
+
+}
+
+nav ul li:hover a{
+    color: aqua;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+
+li a{
+    text-decoration-line: none;
+    color: white;
+    font-size: 40px;
+    
+}
+
+#partie-1{
+    display: flex;
+    height: 300px;
+    padding-bottom: 80px;
+    margin-right: 50px;
+    position: relative;
+    justify-content: end;
+    align-items: end;
+}
+
+#maison{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+#jardin{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#service{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#tronco{
+    width: 220px;
+    height: 220px;
+}
+
+#outil{
+    width: 150px;
+    height: 150px;
+}
+#partie-2{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+#face{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#contact{
+    background-color: rgb(207, 205, 205);
+    position: relative;
+    width: 100%;
+    margin-right: 0px;
+    left: 0px;
+    bottom: -10px;
+}
+
+#formulaire{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    padding-bottom: 10px;
+}
+
+#formulaire input{
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#boutton{
+    margin-top: 10px;
+}
+
+#descritption-form{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 600px;
+    font-size: 40px;
+}
+
+ #tel-image{
+    position: fixed;
+    width: 52px;
+    height: 52px;
+    right: 90px;
+    bottom: 20px;
+}
+
+#email-image{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 162px;
+} 
